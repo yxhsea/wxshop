@@ -1,0 +1,25 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "### 数据库建模工具和脚本已经上传, 大家记得添加数据",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yin32167/lesson-laravel.git"
+  },
+  "author": "magina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yin32167/lesson-laravel/issues"
+  },
+  "homepage": "https://github.com/yin32167/lesson-laravel#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

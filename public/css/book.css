@@ -1,0 +1,89 @@
+body,html{height:100%;-webkit-tap-highlight-color:transparent}
+.page {
+  position:absolute;
+  top:50px;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  background-color:#FBF9FE
+}
+.hd {padding:2em 0}
+.spacing {padding:0 15px}
+.weui_label {width: 5em;}
+.page_title {
+  color:#225FBA;
+  text-align:center;
+  font-size:34px;
+  color:#3CC51F;
+  font-weight:400;
+  margin:0 15%
+}
+.button_sp_area {
+  padding:10px 0;
+  width:60%;
+  margin:0 auto;
+  text-align:justify;
+  text-justify:distribute-all-lines;
+  font-size:0
+}
+.button_sp_area:after{
+  display:inline-block;
+  width:100%;
+  height:0;
+  font-size:0;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  content:"."
+}
+.icon_sp_area {padding:10px 20px;text-align:left}
+
+.bk_title {
+  font-size: 18px;
+  color: #000;
+}
+.bk_summary {
+  font-size: 16px;
+  color: #888;
+}
+.bk_price {
+  font-size: 16px;
+  color: #CD4A4A;
+}
+.bk_time {
+  font-size: 14px;
+  color: #444;
+}
+.bk_important {
+  font-size: 16px;
+  color: #3CC51F;
+}
+.bk_preview {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+.bk_icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.bk_toptips {display: none; position: absolute; bottom: 50px; text-align: center; width: 100%; }
+.bk_toptips span {background: #444444; color: #ffffff; padding: 5px 10px; border-radius: 5px; opacity: 0.9;}
+.bk_bottom_tips {display: block; padding: 20px 0; width: 100%; text-align: center;}
+
+/* 底部标签 */
+.bk_content {margin-bottom: 50px;}
+.bk_fix_bottom {position: fixed; bottom: 0; width: 100%; background-color: #eeeeee;}
+.bk_half_area {width: 45%; padding: 5px 2%; display: inline-block;}
+.bk_btn_area {width: 96%; padding: 5px 2%; display: inline-block;}
+
+/* 标题栏 */
+.bk_title_bar {position: relative;height: 50px;width: 100%; background-color: #25201f}
+.bk_title_content {position: absolute;left: 50px;right: 50px;line-height: 50px;text-align: center;font-size: 18px;color: #FFFFFF}
+.bk_back, .bk_menu {position: absolute;width: 30px;height: 30px;top: 10px;}
+.bk_back {left: 10px;}
+.bk_menu {right: 10px;}
